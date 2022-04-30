@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const _ = require("lodash");
 const dates = require(__dirname + '/date.js'); // Custom module
-const config = require('./config.json');
+// const config = require('./config.json');
 
 // Create app constant
 const app = express();
