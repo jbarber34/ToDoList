@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Connect to new database in mongodb
-mongoose.connect(config.MONGOOSE_CONNECT)
+mongoose.connect(process.env.MONGOOSE_CONNECT)
 
 // Create mongoose schema and model
 const itemsSchema = new mongoose.Schema({
