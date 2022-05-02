@@ -1,12 +1,18 @@
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
 #title {
   background-color: #00B140;
   font-family: 'helvetica neue';
+  min-height: 100vh;
 }
 
 #todoList {
   background-color: #D2F2D4;
   background-image: -webkit-linear-gradient(65deg, #00B140 50%, #D2F2D4 50%);
-  min-height: 100%;
+  min-height: 100vh;
   font-family: 'helvetica neue';
   padding-top: 50px;
 }
@@ -14,7 +20,7 @@
 #about {
   background-color: #D2F2D4;
   background-image: -webkit-linear-gradient(65deg, #00B140 50%, #D2F2D4 50%);
-  min-height: 100%;
+  min-height: 100vh;
   font-family: 'helvetica neue';
   padding: 50px;
 }
