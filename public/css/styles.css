@@ -6,7 +6,6 @@ html {
 #title {
   background-color: #00B140;
   font-family: 'helvetica neue';
-  min-height: 100vh;
 }
 
 #todoList {
